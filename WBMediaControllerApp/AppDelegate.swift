@@ -3,7 +3,7 @@
 //  WBMediaControllerApp
 //
 //  Created by YOKOTA, Kenji on 2015/03/01.
-//  Copyright (c) 2015年 YOKOTA, Kenji. All rights reserved.
+//  Copyright (c) 2015年 wb55. All rights reserved.
 //
 
 import UIKit
@@ -44,3 +44,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension UIColor {
+    class func hexStr (var hexStr : String, var alpha : CGFloat) -> UIColor {
+        hexStr = hexStr.stringByReplacingOccurrencesOfString("#", withString: "")
+        let scanner = NSScanner(string: hexStr)
+        var color: UInt32 = 0
+        if scanner.scanHexInt(&color) {
+            let r = CGFloat((color & 0xFF0000) >> 16) / 255.0
+            let g = CGFloat((color & 0x00FF00) >> 8) / 255.0
+            let b = CGFloat(color & 0x0000FF) / 255.0
+            return UIColor(red:r,green:g,blue:b,alpha:alpha)
+        } else {
+            print("invalid hex string")
+            return UIColor.whiteColor();
+        }
+    }
+}

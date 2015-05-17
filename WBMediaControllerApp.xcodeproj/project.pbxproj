@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D064E43CE523222BBE2FF7A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8AD294929732E2528DDBE18 /* libPods.a */; };
 		C731D3081AA2D17F00A3DC51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C731D3071AA2D17F00A3DC51 /* AppDelegate.swift */; };
 		C731D30A1AA2D17F00A3DC51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C731D3091AA2D17F00A3DC51 /* ViewController.swift */; };
 		C731D30D1AA2D17F00A3DC51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C731D30B1AA2D17F00A3DC51 /* Main.storyboard */; };
 		C731D30F1AA2D17F00A3DC51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C731D30E1AA2D17F00A3DC51 /* Images.xcassets */; };
 		C731D3121AA2D17F00A3DC51 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C731D3101AA2D17F00A3DC51 /* LaunchScreen.xib */; };
 		C731D31E1AA2D17F00A3DC51 /* WBMediaControllerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C731D31D1AA2D17F00A3DC51 /* WBMediaControllerAppTests.swift */; };
+		C731D3281AA2D4A900A3DC51 /* FileStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C731D3271AA2D4A900A3DC51 /* FileStat.swift */; };
+		C731D32A1AA2D6A600A3DC51 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C731D3291AA2D6A600A3DC51 /* ApiRequest.swift */; };
+		C731D3301AA2D8C800A3DC51 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C731D32F1AA2D8C800A3DC51 /* SwiftyJSON.swift */; };
+		C731D3321AA2E2C900A3DC51 /* FileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C731D3311AA2E2C900A3DC51 /* FileTableViewCell.swift */; };
+		C731D3341AA2E43600A3DC51 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C731D3331AA2E43600A3DC51 /* constants.swift */; };
+		C79E79BD1AA4BBA600AA2500 /* arrow-up-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C79E79BB1AA4BBA600AA2500 /* arrow-up-2.png */; };
+		C79E79BE1AA4BBA600AA2500 /* folder.png in Resources */ = {isa = PBXBuildFile; fileRef = C79E79BC1AA4BBA600AA2500 /* folder.png */; };
+		C7D806AD1AAC97E300CDF5C7 /* wbmp_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D806AC1AAC97E300CDF5C7 /* wbmp_logo.png */; };
+		C7D806AF1AAC995700CDF5C7 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D806AE1AAC995700CDF5C7 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02077D17E76F239B47C52920 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8A3FEEA3AD36C9E51F998BCC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B8AD294929732E2528DDBE18 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C731D3021AA2D17F00A3DC51 /* WBMediaControllerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBMediaControllerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C731D3061AA2D17F00A3DC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C731D3071AA2D17F00A3DC51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +49,17 @@
 		C731D3171AA2D17F00A3DC51 /* WBMediaControllerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBMediaControllerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C731D31C1AA2D17F00A3DC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C731D31D1AA2D17F00A3DC51 /* WBMediaControllerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBMediaControllerAppTests.swift; sourceTree = "<group>"; };
+		C731D3271AA2D4A900A3DC51 /* FileStat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileStat.swift; sourceTree = "<group>"; };
+		C731D3291AA2D6A600A3DC51 /* ApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		C731D32B1AA2D77800A3DC51 /* WBMediaControllerApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WBMediaControllerApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		C731D32F1AA2D8C800A3DC51 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		C731D3311AA2E2C900A3DC51 /* FileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileTableViewCell.swift; sourceTree = "<group>"; };
+		C731D3331AA2E43600A3DC51 /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		C79E79B91AA4B20400AA2500 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		C79E79BB1AA4BBA600AA2500 /* arrow-up-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up-2.png"; sourceTree = "<group>"; };
+		C79E79BC1AA4BBA600AA2500 /* folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder.png; sourceTree = "<group>"; };
+		C7D806AC1AAC97E300CDF5C7 /* wbmp_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wbmp_logo.png; sourceTree = "<group>"; };
+		C7D806AE1AAC995700CDF5C7 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D064E43CE523222BBE2FF7A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +81,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C183477E67C71E4B1C01AE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8AD294929732E2528DDBE18 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F2A5D9DA4A52914921DF852 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02077D17E76F239B47C52920 /* Pods.debug.xcconfig */,
+				8A3FEEA3AD36C9E51F998BCC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C731D2F91AA2D17F00A3DC51 = {
 			isa = PBXGroup;
 			children = (
 				C731D3041AA2D17F00A3DC51 /* WBMediaControllerApp */,
 				C731D31A1AA2D17F00A3DC51 /* WBMediaControllerAppTests */,
 				C731D3031AA2D17F00A3DC51 /* Products */,
+				7F2A5D9DA4A52914921DF852 /* Pods */,
+				5C183477E67C71E4B1C01AE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +121,22 @@
 		C731D3041AA2D17F00A3DC51 /* WBMediaControllerApp */ = {
 			isa = PBXGroup;
 			children = (
+				C731D3291AA2D6A600A3DC51 /* ApiRequest.swift */,
 				C731D3071AA2D17F00A3DC51 /* AppDelegate.swift */,
-				C731D3091AA2D17F00A3DC51 /* ViewController.swift */,
-				C731D30B1AA2D17F00A3DC51 /* Main.storyboard */,
+				C731D3331AA2E43600A3DC51 /* constants.swift */,
+				C731D3271AA2D4A900A3DC51 /* FileStat.swift */,
+				C731D3311AA2E2C900A3DC51 /* FileTableViewCell.swift */,
+				C79E79BA1AA4BBA600AA2500 /* images */,
 				C731D30E1AA2D17F00A3DC51 /* Images.xcassets */,
 				C731D3101AA2D17F00A3DC51 /* LaunchScreen.xib */,
+				C731D30B1AA2D17F00A3DC51 /* Main.storyboard */,
+				C79E79B91AA4B20400AA2500 /* MyPlayground.playground */,
 				C731D3051AA2D17F00A3DC51 /* Supporting Files */,
+				C731D32E1AA2D8C800A3DC51 /* vendor */,
+				C731D3091AA2D17F00A3DC51 /* ViewController.swift */,
+				C731D32B1AA2D77800A3DC51 /* WBMediaControllerApp-Bridging-Header.h */,
+				C7D806AC1AAC97E300CDF5C7 /* wbmp_logo.png */,
+				C7D806AE1AAC995700CDF5C7 /* LoadingView.swift */,
 			);
 			path = WBMediaControllerApp;
 			sourceTree = "<group>";
@@ -112,6 +166,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C731D32E1AA2D8C800A3DC51 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				C731D32F1AA2D8C800A3DC51 /* SwiftyJSON.swift */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		C79E79BA1AA4BBA600AA2500 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C79E79BB1AA4BBA600AA2500 /* arrow-up-2.png */,
+				C79E79BC1AA4BBA600AA2500 /* folder.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C731D3211AA2D17F00A3DC51 /* Build configuration list for PBXNativeTarget "WBMediaControllerApp" */;
 			buildPhases = (
+				CE8C6E916A2D34648C542A0B /* Check Pods Manifest.lock */,
 				C731D2FE1AA2D17F00A3DC51 /* Sources */,
 				C731D2FF1AA2D17F00A3DC51 /* Frameworks */,
 				C731D3001AA2D17F00A3DC51 /* Resources */,
+				E9C4E404F399415EBF2DC83E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,8 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C731D30D1AA2D17F00A3DC51 /* Main.storyboard in Resources */,
+				C79E79BD1AA4BBA600AA2500 /* arrow-up-2.png in Resources */,
 				C731D3121AA2D17F00A3DC51 /* LaunchScreen.xib in Resources */,
 				C731D30F1AA2D17F00A3DC51 /* Images.xcassets in Resources */,
+				C7D806AD1AAC97E300CDF5C7 /* wbmp_logo.png in Resources */,
+				C79E79BE1AA4BBA600AA2500 /* folder.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,12 +283,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CE8C6E916A2D34648C542A0B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9C4E404F399415EBF2DC83E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C731D2FE1AA2D17F00A3DC51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C731D3281AA2D4A900A3DC51 /* FileStat.swift in Sources */,
+				C731D3321AA2E2C900A3DC51 /* FileTableViewCell.swift in Sources */,
 				C731D30A1AA2D17F00A3DC51 /* ViewController.swift in Sources */,
+				C731D3341AA2E43600A3DC51 /* constants.swift in Sources */,
+				C731D32A1AA2D6A600A3DC51 /* ApiRequest.swift in Sources */,
+				C7D806AF1AAC995700CDF5C7 /* LoadingView.swift in Sources */,
+				C731D3301AA2D8C800A3DC51 /* SwiftyJSON.swift in Sources */,
 				C731D3081AA2D17F00A3DC51 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -326,7 +441,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -336,21 +451,33 @@
 		};
 		C731D3221AA2D17F00A3DC51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02077D17E76F239B47C52920 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kenji Yokota (YG7L6ZPG7M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kenji Yokota (YG7L6ZPG7M)";
 				INFOPLIST_FILE = WBMediaControllerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "66544b8d-db64-4319-a9c0-2abcf93aff20";
+				SWIFT_OBJC_BRIDGING_HEADER = "WBMediaControllerApp/WBMediaControllerApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		C731D3231AA2D17F00A3DC51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A3FEEA3AD36C9E51F998BCC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WBMediaControllerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WBMediaControllerApp/WBMediaControllerApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -407,6 +534,7 @@
 				C731D3231AA2D17F00A3DC51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C731D3241AA2D17F00A3DC51 /* Build configuration list for PBXNativeTarget "WBMediaControllerAppTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +543,7 @@
 				C731D3261AA2D17F00A3DC51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
